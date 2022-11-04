@@ -5,6 +5,7 @@ import TypeWriter from "../components/TypeWriter";
 import Button from "../components/Button";
 import Carousel from "../components/Carousel";
 import Courses from "../components/Courses";
+import New from "../components/New";
 
 
 
@@ -18,6 +19,7 @@ export default function Home() {
       <TypeWriter />
       <Courses/>
       <Button />
+      <New/>
     </div>
   );
 }
