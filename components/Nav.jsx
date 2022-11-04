@@ -24,7 +24,7 @@ const Nav = () => {
               sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw"
-              className="rounded-full p-3 animate-pulse"
+              className="rounded-full p-3"
             />
           </a>
         </li>
