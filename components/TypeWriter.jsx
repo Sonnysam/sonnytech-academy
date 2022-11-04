@@ -20,7 +20,7 @@ const TypeWriter = () => {
         // style={{ fontSize: "1em" }}
         wrapper="span"
         repeat={Infinity}
-        className="text-yellow-300 font-extrabold"
+        className="text-yellow-300 font-extrabold text-lg"
       />
     </div>
   );
