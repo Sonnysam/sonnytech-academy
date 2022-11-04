@@ -8,8 +8,7 @@ const Nav = () => {
     <nav className="py-3 mb-12 flex justify-between text-white">
       <h1 className="text-xl font-extrabold flex items-center lg:text-3xl md:text-2xl sm:text-2xl">
         Sonnytech Academy
-        <span className="text-sky-300 text-xl">
-          {" "}
+        <span className="text-sky-300 ml-1 text-xl">
           <GoVerified />
         </span>
       </h1>
