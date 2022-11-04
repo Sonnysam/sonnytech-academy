@@ -1,22 +1,89 @@
 import Image from "next/image";
 import Me from "../public/me.png";
+import L from "../public/linkedin.png";
+import T from "../public/twitter.png";
+import Y from "../public/youtube.png";
+import G from "../public/github.png";
 
 const About = () => {
   return (
     <div className="mx-5 mt-12 ">
       <section className="flex flex-col items-center justify-center">
+        <h1 className="flex justify-center items-center mb-6 text-white text-4xl font-bold">
+          About Me
+        </h1>
         <Image
           src={Me}
           alt="Picture of the me"
-          width={50}
-          height={50}
+          width={60}
+          height={60}
           sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw"
           className="rounded-full"
         />
-        <p className="text-2xl font-bold text-white">Agbenyo Samuel</p>
-        <small className="text-xs text-gray-400">Developer & content creator</small>
+        <p className="text-xl font-bold text-white">Agbenyo Samuel</p>
+        <small className="text-xs text-gray-400">
+          Developer & content creator
+        </small>
+        <p className="text-base text-white mx-5">
+          Hi I'm Sonny. I found love for tech during second year of high school
+          and immediately developed interest in it. I'm very thankful to God and
+          the people around me who have helped me come this far with my career
+          as a developer. I'm also passionate about sharing this knowledge with
+          everyone interested in learning to become a developer like me.
+        </p>
+        <p className="flex my-2 text-gray-400 font-bold">Let's get social😎</p>
+        <div className="flex mb-3">
+          <a href="">
+            <Image
+              src={G}
+              alt="Picture of the me"
+              width={30}
+              height={30}
+              sizes="(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw"
+              className="rounded-full mx-1"
+            />
+          </a>
+          <a href="">
+            <Image
+              src={Y}
+              alt="Picture of the me"
+              width={30}
+              height={30}
+              sizes="(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw"
+              className="rounded-full mx-1"
+            />
+          </a>
+          <a href="">
+            <Image
+              src={T}
+              alt="Picture of the me"
+              width={30}
+              height={30}
+              sizes="(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw"
+              className="rounded-full mx-1"
+            />
+          </a>
+          <a href="">
+            <Image
+              src={L}
+              alt="Picture of the me"
+              width={30}
+              height={30}
+              sizes="(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw"
+              className="rounded-full mx-1"
+            />
+          </a>
+        </div>
       </section>
     </div>
   );
