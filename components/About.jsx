@@ -33,9 +33,9 @@ const About = () => {
           as a developer. I'm also passionate about sharing this knowledge with
           everyone interested in learning to become a developer like me.
         </p>
-        <p className="flex my-2 text-gray-400 font-bold">Let's get social😎</p>
+        <p className="flex my-2 text-gray-400 font-bold text-base">Let's get social😎</p>
         <div className="flex mb-3">
-          <a href="">
+          <a href="https://github.com/Sonnysam">
             <Image
               src={G}
               alt="Picture of the me"
@@ -47,7 +47,7 @@ const About = () => {
               className="rounded-full mx-1"
             />
           </a>
-          <a href="">
+          <a href="https://www.youtube.com/@SonnyTechAcademy">
             <Image
               src={Y}
               alt="Picture of the me"
@@ -59,7 +59,7 @@ const About = () => {
               className="rounded-full mx-1"
             />
           </a>
-          <a href="">
+          <a href="https://twitter.com/AgbenyoOfficial">
             <Image
               src={T}
               alt="Picture of the me"
@@ -71,7 +71,7 @@ const About = () => {
               className="rounded-full mx-1"
             />
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/samuel-agbenyo-963580202/">
             <Image
               src={L}
               alt="Picture of the me"

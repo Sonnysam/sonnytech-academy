@@ -65,7 +65,7 @@ const Courses = () => {
           />
         </div>
         <div className="my-auto">
-          <strong className="text-3xl flex justify-center items-center text-white">UI/UX</strong>
+          <strong className="text-3xl flex justify-center items-center text-white">UI / UX</strong>
           <p className="flex justify-center items-center text-gray-400 mt-2">
             learn to use Adobe XD & Figma for free.
           </p>

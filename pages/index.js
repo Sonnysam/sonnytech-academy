@@ -7,6 +7,7 @@ import Carousel from "../components/Carousel";
 import Courses from "../components/Courses";
 import New from "../components/New";
 import About from "../components/About";
+import Buy from "../components/Buy";
 
 
 
@@ -22,6 +23,7 @@ export default function Home() {
       <Button />
       <New/>
       <About/>
+      <Buy/>
     </div>
   );
 }
