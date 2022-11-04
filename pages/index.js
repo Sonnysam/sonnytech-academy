@@ -4,18 +4,20 @@ import Banner from "../components/Banner";
 import TypeWriter from "../components/TypeWriter";
 import Button from "../components/Button";
 import Carousel from "../components/Carousel";
+import Courses from "../components/Courses";
 
 
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-slate-800">
+    <div className="min-h-screen bg-slate-700">
       <Header />
       <Nav />
-      <Carousel/>
-      <Banner/>
-      <TypeWriter/>
-      <Button/>
+      <Carousel />
+      <Banner />
+      <TypeWriter />
+      <Courses/>
+      <Button />
     </div>
   );
 }
