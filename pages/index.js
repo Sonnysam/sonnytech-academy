@@ -8,6 +8,7 @@ import Courses from "../components/Courses";
 import New from "../components/New";
 import About from "../components/About";
 import Buy from "../components/Buy";
+import Email from "../components/Email";
 
 
 
@@ -24,6 +25,7 @@ export default function Home() {
       <New/>
       <About/>
       <Buy/>
+      <Email />
     </div>
   );
 }
