@@ -6,7 +6,7 @@ import { GoVerified } from "react-icons/go";
 const Nav = () => {
   return (
     <nav className="px-5 py-1 flex justify-between text-white bg-slate-800">
-      <h1 className="text-2xl font-extrabold flex items-center lg:text-3xl md:text-2xl sm:text-2xl">
+      <h1 className="text-2xl font-extrabold flex items-center lg:text-3xl md:text-2xl sm:text-xl">
         Sonnytech Academy
         <span className="text-[#FFDE57] ml-1 text-base lg:text-lg ">
           <GoVerified />
