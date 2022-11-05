@@ -4,7 +4,7 @@ const New = () => {
   return (
     <div className="mt-12 mx-w-48">
       <h1 className="flex justify-center items-center mb-5 text-white text-4xl font-bold">
-        latest Releases
+        Latest Releases
       </h1>
       <section className="flex flex-wrap  justify-center items-center mx-2">
         <iframe
