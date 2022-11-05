@@ -27,9 +27,8 @@ const About = () => {
           Developer & content creator
         </small>
         <p className="text-base text-white mx-1">
-          Hi I'm Sonny. I found love for tech during my second year of high school
-          and immediately developed interest in it. I'm very thankful to God almighty and
-          the people around me who have helped me come this far with my career
+          Hi👋 I'm Samuel, but most people know me as Sonny. I found love for tech during my second year of junior high school
+          and immediately developed interest in it. I'm very thankful to God almighty and the people around me who have helped me come this far with my career
           as a developer. I'm also passionate about sharing the little knowledge I have with
           everyone interested in learning to become a developer like me.
         </p>
