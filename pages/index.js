@@ -9,6 +9,7 @@ import New from "../components/New";
 import About from "../components/About";
 import Buy from "../components/Buy";
 import Email from "../components/Email";
+import Footer from "../components/Footer";
 
 
 
@@ -26,6 +27,7 @@ export default function Home() {
       <About/>
       <Buy/>
       <Email />
+      <Footer/>
     </div>
   );
 }
