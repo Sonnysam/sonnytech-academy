@@ -35,7 +35,7 @@ const Email = () => {
       <h3 className="flex justify-center items-center mt-2 mb-4 mx-3 text-white font-bold text-sm">
         Subscribe to our newsletter
       </h3>
-      <section className="mx-5 mx-w-52">
+      <section className="mx-6 mx-w-64">
         <form
           ref={form}
           onSubmit={sendMsg}
@@ -46,24 +46,26 @@ const Email = () => {
          p-2"
         >
           <label className="text-white font-base flex justify-start">Name</label>
-          <div className="border-2 py-2 px-3 rounded mb-4 mx-3 bg-[#E2F1F6]">
+          <div className="border-2 py-2 px-3 rounded mb-4 bg-[#E2F1F6]">
             <input
               type="text"
+              placeholder="Enter your name"
               name="user_name"
-              className="outline-none border-none bg-transparent py-2 overflow-hidden w-60"
+              className="outline-none border-none bg-transparent py-2 overflow-hidden w-64"
             />
           </div>
           <label className="text-white font-base flex justify-start">
             Email
           </label>
-          <div className="border-2 py-2 px-3 rounded mx-3 bg-[#E2F1F6]">
+          <div className="border-2 py-2 px-3 rounded bg-[#E2F1F6]">
             <input
               type="email"
+              placeholder="Enter your email address"
               name="user_email"
-              className="outline-none border-none bg-transparent py-2 overflow-hidden w-60"
+              className="outline-none border-none bg-transparent py-2 overflow-hidden w-64"
             />
           </div>
-          <div className="flex justify-start mt-1 w-60">
+          <div className="flex justify-start mt-1 w-64">
             <input type="checkbox" name="" id="" />
             <h5 className="text-white font-bold text-xs ml-2">
               Send me weekly emails only
@@ -74,7 +76,7 @@ const Email = () => {
             <button
               type="submit"
               placeholder="Subscribe"
-              className="outline-none border-none font-bold text-white text-xl bg-transparent overflow-hidden w-60"
+              className="outline-none border-none font-bold text-white text-xl bg-transparent overflow-hidden w-64"
             >
               Subscribe
             </button>
