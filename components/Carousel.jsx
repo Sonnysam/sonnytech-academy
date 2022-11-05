@@ -3,6 +3,7 @@ import HTML from "../public/html.png"
 import CSS from "../public/css.png"
 import JS from "../public/jscript.png"
 import BS from "../public/bootstrap.png"
+import N from "../public/native.jpeg"
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -64,6 +65,16 @@ export default function Carousel() {
         <SwiperSlide>
           <Image
             src={BS}
+            alt="Picture of the me"
+            sizes="(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw"
+            className="object-fill w-full h-25 lg:h-96 md:h-70 sm:h-25"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src={N}
             alt="Picture of the me"
             sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,

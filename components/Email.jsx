@@ -50,7 +50,7 @@ const Email = () => {
             <input
               type="text"
               name="user_name"
-              className="outline-none border-none bg-transparent py-2 overflow-hidden w-52"
+              className="outline-none border-none bg-transparent py-2 overflow-hidden w-60"
             />
           </div>
           <label className="text-white font-base flex justify-start">
@@ -60,10 +60,10 @@ const Email = () => {
             <input
               type="email"
               name="user_email"
-              className="outline-none border-none bg-transparent py-2 overflow-hidden w-52"
+              className="outline-none border-none bg-transparent py-2 overflow-hidden w-60"
             />
           </div>
-          <div className="flex justify-start mt-1 w-52">
+          <div className="flex justify-start mt-1 w-60">
             <input type="checkbox" name="" id="" />
             <h5 className="text-white font-bold text-xs ml-2">
               Send me weekly emails only
@@ -74,7 +74,7 @@ const Email = () => {
             <button
               type="submit"
               placeholder="Subscribe"
-              className="outline-none border-none font-bold text-white text-xl bg-transparent overflow-hidden w-52"
+              className="outline-none border-none font-bold text-white text-xl bg-transparent overflow-hidden w-60"
             >
               Subscribe
             </button>

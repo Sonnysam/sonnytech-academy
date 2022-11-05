@@ -17,10 +17,9 @@ const TypeWriter = () => {
           1000,
         ]}
         speed={50}
-        // style={{ fontSize: "1em" }}
         wrapper="span"
         repeat={Infinity}
-        className="text-yellow-300 font-extrabold text-lg"
+        className="text-yellow-300 font-extrabold text-base"
       />
     </div>
   );
