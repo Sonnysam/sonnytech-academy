@@ -35,7 +35,7 @@ const Email = () => {
       <h3 className="flex justify-center items-center mt-2 mb-4 mx-3 text-white font-bold text-sm">
         Subscribe to our newsletter
       </h3>
-      <section className="mx-5 mx-w-48">
+      <section className="mx-5 mx-w-52">
         <form
           ref={form}
           onSubmit={sendMsg}
@@ -50,7 +50,7 @@ const Email = () => {
             <input
               type="text"
               name="user_name"
-              className="outline-none border-none bg-transparent py-2 overflow-hidden w-48"
+              className="outline-none border-none bg-transparent py-2 overflow-hidden w-52"
             />
           </div>
           <label className="text-white font-base flex justify-start">
@@ -60,12 +60,12 @@ const Email = () => {
             <input
               type="email"
               name="user_email"
-              className="outline-none border-none bg-transparent py-2 overflow-hidden w-48"
+              className="outline-none border-none bg-transparent py-2 overflow-hidden w-52"
             />
           </div>
-          <div className="flex justify-start mt-1 w-48">
+          <div className="flex justify-start mt-1 w-52">
             <input type="checkbox" name="" id="" />
-            <h5 className="text-white font-bold text-sm ml-2">
+            <h5 className="text-white font-bold text-xs ml-2">
               Send me weekly emails only
             </h5>
           </div>
@@ -74,7 +74,7 @@ const Email = () => {
             <button
               type="submit"
               placeholder="Subscribe"
-              className="outline-none border-none font-bold text-white text-xl bg-transparent overflow-hidden w-48"
+              className="outline-none border-none font-bold text-white text-xl bg-transparent overflow-hidden w-52"
             >
               Subscribe
             </button>
