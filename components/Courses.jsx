@@ -9,7 +9,7 @@ import M from "../public/m.png";
 
 const Courses = () => {
   return (
-    <section className="mt-5 mx-16">
+    <section className="mt-5 mx-5 lg:mx-15 md:mx-12">
       <article className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2">
         <div>
           <Image
@@ -67,7 +67,7 @@ const Courses = () => {
         <div className="my-auto">
           <strong className="text-3xl flex justify-center items-center text-white">UI / UX</strong>
           <p className="flex justify-center items-center text-gray-400 mt-2">
-            learn to use Adobe XD & Figma for free.
+            learn to use Adobe XD & Figma for free. <br/> Coming Soon :)
           </p>
         </div>
       </article>

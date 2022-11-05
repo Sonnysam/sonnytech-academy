@@ -32,10 +32,10 @@ const Email = () => {
       <h1 className="flex justify-center items-center mt-5 text-white font-bold text-3xl">
         Let’s keep in touch
       </h1>
-      <h3 className="flex justify-center items-center mt-2 mb-4 text-white font-bold text-sm">
-        Subscribe to our newsletter & receive the latest updates
+      <h3 className="flex justify-center items-center mt-2 mb-4 mx-3 text-white font-bold text-sm">
+        Subscribe to our newsletter
       </h3>
-      <section className=" ">
+      <section className="mx-5 mx-w-48">
         <form
           ref={form}
           onSubmit={sendMsg}
@@ -43,27 +43,27 @@ const Email = () => {
         flex-col
         justify-center
         items-center
-        w-full p-2"
+         p-2"
         >
           <label className="text-white font-base flex justify-start">Name</label>
-          <div className="border-2 py-2 px-3 rounded mb-4 bg-[#E2F1F6]">
+          <div className="border-2 py-2 px-3 rounded mb-4 mx-3 bg-[#E2F1F6]">
             <input
               type="text"
               name="user_name"
-              className="outline-none border-none bg-transparent py-2 overflow-hidden w-96"
+              className="outline-none border-none bg-transparent py-2 overflow-hidden w-48"
             />
           </div>
           <label className="text-white font-base flex justify-start">
             Email
           </label>
-          <div className="border-2 py-2 px-3 rounded  bg-[#E2F1F6]">
+          <div className="border-2 py-2 px-3 rounded mx-3 bg-[#E2F1F6]">
             <input
               type="email"
               name="user_email"
-              className="outline-none border-none bg-transparent py-2 overflow-hidden w-96"
+              className="outline-none border-none bg-transparent py-2 overflow-hidden w-48"
             />
           </div>
-          <div className="flex justify-start mt-1 w-96">
+          <div className="flex justify-start mt-1 w-48">
             <input type="checkbox" name="" id="" />
             <h5 className="text-white font-bold text-sm ml-2">
               Send me weekly emails only
@@ -74,7 +74,7 @@ const Email = () => {
             <button
               type="submit"
               placeholder="Subscribe"
-              className="outline-none border-none font-bold text-white text-xl bg-transparent overflow-hidden w-96"
+              className="outline-none border-none font-bold text-white text-xl bg-transparent overflow-hidden w-48"
             >
               Subscribe
             </button>
