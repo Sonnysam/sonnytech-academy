@@ -1,4 +1,5 @@
-
+import Image from "next/image";
+import PC from "../public/pc.png";
 
 const New = () => {
   return (
@@ -6,6 +7,7 @@ const New = () => {
       <h1 className="flex justify-center items-center mb-5 text-white text-4xl font-bold">
         Latest Releases
       </h1>
+      
       <section className="flex flex-wrap  justify-center items-center mx-2">
         <iframe
           width="288"
@@ -31,6 +33,6 @@ const New = () => {
       </section>
     </div>
   );
-}
+};
 
-export default New
+export default New;

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Me from "../public/me.png";
 import L from "../public/linkedin.png";
 import T from "../public/twitter.png";
-import Y from "../public/youtube.png";
+import Y from "../public/sub.gif";
 import G from "../public/github.png";
 
 const About = () => {
@@ -27,12 +27,18 @@ const About = () => {
           Developer & content creator
         </small>
         <p className="text-base text-white mx-1">
-           <span className="flex justify-center items-center my-1">Hi 👋</span>I'm Samuel Agbenyo, but most people know me as Sonny. I found love for tech during my second year of junior high school
-          and immediately developed interest in it. I'm very thankful to God almighty and the people around me who have helped me come this far with my career
-          as a developer. I'm also passionate about sharing the little knowledge I have with
-          everyone interested in learning to become a developer like me.
+          <span className="flex justify-center items-center my-1">Hi 👋</span>
+          I'm Samuel Agbenyo, but most people know me as Sonny. I found love for
+          tech during my second year of junior high school and immediately
+          developed interest in it. I'm very thankful to God almighty and the
+          people around me who have helped me come this far with my career as a
+          developer. I'm also passionate about sharing the little knowledge I
+          have with everyone interested in learning to become a developer like
+          me.
         </p>
-        <p className="flex mt-3 mb-2 text-gray-400 font-bold text-base">Let's get social 😎</p>
+        <p className="flex mt-3 mb-2 text-gray-400 font-bold text-base">
+          Let's get social 😎
+        </p>
         <div className="flex mb-3">
           <a href="https://github.com/Sonnysam">
             <Image
@@ -43,10 +49,10 @@ const About = () => {
               sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw"
-              className="rounded-full mx-1"
+              className="rounded-full mx-1 animate-bounce p-1"
             />
           </a>
-          <a href="https://www.youtube.com/@SonnyTechAcademy">
+          {/* <a href="https://www.youtube.com/@SonnyTechAcademy">
             <Image
               src={Y}
               alt="Picture of the me"
@@ -55,9 +61,9 @@ const About = () => {
               sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw"
-              className="rounded-full mx-1"
+              className="rounded-full mx-1 animate-bounce p-1"
             />
-          </a>
+          </a> */}
           <a href="https://twitter.com/AgbenyoOfficial">
             <Image
               src={T}
@@ -67,7 +73,7 @@ const About = () => {
               sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw"
-              className="rounded-full mx-1"
+              className="rounded-full mx-1 animate-bounce p-1"
             />
           </a>
           <a href="https://www.linkedin.com/in/samuel-agbenyo-963580202/">
@@ -79,7 +85,7 @@ const About = () => {
               sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw"
-              className="rounded-full mx-1"
+              className="rounded-full mx-1 animate-bounce p-1"
             />
           </a>
         </div>
