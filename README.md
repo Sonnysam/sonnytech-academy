@@ -1,3 +1,16 @@
+## Stack used 
+🔴 Nextjs
+🔴 Emailjs 📧
+🔴 Tailwind CSS 🎨
+🔴 React Type Animation 
+🔴 Swiper React
+
+🟢 Live site 🚀
+https://sonnytech-academy.vercel.app/
+
+🟢 Link to package 👇👇
+https://www.npmjs.com/package/react-type-animation
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
