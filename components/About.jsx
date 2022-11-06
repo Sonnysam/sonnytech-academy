@@ -28,7 +28,7 @@ const About = () => {
         </small>
         <p className="text-base text-white mx-1">
           <span className="flex justify-center items-center my-1">Hi 👋</span>
-          I'm Samuel Agbenyo, but most people know me as Sonny. I found love for
+          I'm Samuel Agbenyo, but mostly known as Sonny. I found love for
           tech during my second year of junior high school and immediately
           developed interest in it. I'm very thankful to God almighty and the
           people around me who have helped me come this far with my career as a
