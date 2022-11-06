@@ -1,3 +1,5 @@
+A single page site for my youtube channel built with Nextjs, Tailwind CSS, Emailjs and two other npm react packages for the carousel and typewriter animation
+
 ## Stack used 
 🔴 Nextjs
 🔴 Emailjs 📧
