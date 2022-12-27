@@ -8,7 +8,7 @@ const New = () => {
         Latest Releases 🚀
       </h1>
 
-      <div className="flex justify-center items-center">
+      {/* <div className="flex justify-center items-center">
         <Image
           src={PC}
           alt="Picture of the me"
@@ -17,8 +17,8 @@ const New = () => {
               33vw"
           className="lg:h-[60vh] lg:w-[40vw] md:flex lg:flex"
         />
-      </div>
-      <h6 className="flex justify-center items-cente text-white text-base font-medium mb-3">
+      </div> */}
+      <h6 className="flex justify-center items-center text-white text-sm font-medium my-4">
         Don't forget to{" "}
         <a href="https://www.youtube.com/@SonnyTechAcademy">
           {" "}
@@ -38,7 +38,7 @@ const New = () => {
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-          className="md:w-[6] h-[14]"
+          className="md:w-[6] h-[14] mr-2"
         ></iframe>
 
         <iframe
