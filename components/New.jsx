@@ -29,7 +29,7 @@ const New = () => {
         if you haven't 😁
       </h6>
 
-      <section className="flex flex-wrap  justify-center items-center mx-2">
+      <section className="flex flex-wrap  justify-center items-center">
         <iframe
           width="288"
           height="187"
@@ -38,7 +38,7 @@ const New = () => {
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-          className="md:w-[6] h-[14] mr-1"
+          className="md:w-[6] h-[14] md:mx-2 my-2"
         ></iframe>
 
         <iframe
