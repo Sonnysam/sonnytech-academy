@@ -19,26 +19,33 @@ const New = () => {
         />
       </div>
       <h6 className="flex justify-center items-cente text-white text-base font-medium mb-3">
-        Don't forget to <a href="https://www.youtube.com/@SonnyTechAcademy"> <span className="bg-red-500 px-2 rounded-md mx-2 cursor-pointer py-1">Subscribe</span></a> if you haven't 😁
+        Don't forget to{" "}
+        <a href="https://www.youtube.com/@SonnyTechAcademy">
+          {" "}
+          <span className="bg-red-500 px-2 rounded-md mx-2 cursor-pointer py-1">
+            Subscribe
+          </span>
+        </a>{" "}
+        if you haven't 😁
       </h6>
 
       <section className="flex flex-wrap  justify-center items-center mx-2">
         <iframe
           width="288"
           height="187"
-          src="https://www.youtube.com/embed/5UlvfxQvH2A"
-          title="How to make phone call in React Native Expo (Open Phone Dialer)🚀"
+          src="https://www.youtube.com/embed/ZX1ONp_F7MU"
+          title="How to send Email in React Native Expo 🚀📧"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-          className="m-3 md:w-[6] h-[14]"
+          className="md:w-[6] h-[14]"
         ></iframe>
 
         <iframe
           width="288"
           height="187"
-          src="https://www.youtube.com/embed/66iA7TenmwU"
-          title="How To Integrate Paystack payment into  React Native (using expo) 🚀🚀"
+          src="https://www.youtube.com/embed/xKh3nQXcFGs"
+          title="WhatsApp UI with React Native (Expo) & Tailwind CSS Part 3 🚀"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
