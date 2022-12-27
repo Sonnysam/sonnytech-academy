@@ -45,7 +45,9 @@ const Email = () => {
         items-center
          p-2"
         >
-          <label className="text-white font-base flex justify-start">Name</label>
+          {/* <label className="text-white font-base flex justify-start">
+            Name
+          </label> */}
           <div className="border-2 py-2 px-3 rounded mb-4 bg-[#E2F1F6]">
             <input
               type="text"
@@ -54,9 +56,9 @@ const Email = () => {
               className="outline-none border-none bg-transparent py-2 overflow-hidden w-64"
             />
           </div>
-          <label className="text-white font-base flex justify-start">
+          {/* <label className="text-white font-base flex justify-start">
             Email
-          </label>
+          </label> */}
           <div className="border-2 py-2 px-3 rounded bg-[#E2F1F6]">
             <input
               type="email"
