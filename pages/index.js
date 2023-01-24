@@ -10,6 +10,7 @@ import About from "../components/About";
 import Buy from "../components/Buy";
 import Email from "../components/Email";
 import Footer from "../components/Footer";
+import Labs from "../components/Labs";
 
 
 
@@ -26,7 +27,8 @@ export default function Home() {
       <New/>
       <About/>
       <Buy/>
-      <Email />
+      {/* <Email /> */}
+      <Labs/>
       <Footer/>
     </div>
   );
