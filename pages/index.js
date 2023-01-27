@@ -11,6 +11,7 @@ import Buy from "../components/Buy";
 import Email from "../components/Email";
 import Footer from "../components/Footer";
 import Labs from "../components/Labs";
+import Subscribe from "../components/Subscribe";
 
 
 
@@ -29,6 +30,7 @@ export default function Home() {
       <Buy/>
       {/* <Email /> */}
       <Labs/>
+      <Subscribe/>
       <Footer/>
     </div>
   );

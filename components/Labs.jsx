@@ -6,10 +6,10 @@ const Labs = () => {
       <div className="my-3 flex flex-col justify-center items-center mx-2">
         <h1 className="mb-2 text-white text-2xl font-bold md:text-2xl sm:xl lg:text-4xl">
           Introducing{" "}
-          <span className="text-[#FFDE57]">Sonnytech Academy Labs</span>🎉
+          <span className="text-[#FFDE57]">S A Labs</span>🎉
         </h1>
         <p className="text-white text-base sm:text-base md-text-xl lg:text-xl">
-          Sonnytech Academy Labs is a space in Sonnytech Academy dedicated to
+        <span className="text-[#FFDE57] font-bold"> Sonnytech Academy Labs</span>  is a space in Sonnytech Academy dedicated to
           the development and testing of software and also building open source
           projects for the community. It provides resources, mentorship,
           internships and guidance to entrepreneurs and startups looking to
