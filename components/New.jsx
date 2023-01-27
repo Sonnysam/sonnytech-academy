@@ -33,10 +33,10 @@ const New = () => {
         <iframe
           width="288"
           height="187"
-          src="https://www.youtube.com/embed/ZX1ONp_F7MU"
-          title="How to send Email in React Native Expo 🚀📧"
+          src="https://www.youtube.com/embed/L0J7giCn0l0"
+          title="How to add Password visibility toggle in React Native Expo 🚀"
           frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
           className="md:w-[6] h-[14] md:mx-2 my-2"
         ></iframe>
@@ -44,12 +44,12 @@ const New = () => {
         <iframe
           width="288"
           height="187"
-          src="https://www.youtube.com/embed/xKh3nQXcFGs"
-          title="WhatsApp UI with React Native (Expo) & Tailwind CSS Part 3 🚀"
+          src="https://www.youtube.com/embed/lfSqauDmRxM"
+          title="How to collaborate on a project on Github"
           frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
-          className="md:w-[6] h-[14]"
+          className="md:w-[6] h-[14] md:mx-2"
         ></iframe>
       </section>
     </div>
