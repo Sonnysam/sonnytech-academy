@@ -6,8 +6,15 @@ import W from "../public/w.png";
 import WB from "../public/wb.png";
 import DE from "../public/de.png";
 import M from "../public/m.png";
+import React, { useEffect } from "react";
+import AOS from "aos";
 
 const Courses = () => {
+  useEffect(() => {
+    AOS.init();
+    // console.log("AOS initialized");
+  }, []);
+
   return (
     <section className="mt-5 mx-5 lg:mx-15 md:mx-12">
       <article className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2">
@@ -21,7 +28,7 @@ const Courses = () => {
             className="lg:h-[60vh] lg:w-[40vw] md:flex lg:flex"
           />
         </div>
-        <div className="my-auto">
+        <div className="my-auto" data-aos="fade-left">
           <strong className="text-3xl text-white flex justify-center items-center">
             Mobile Development
           </strong>
@@ -65,9 +72,11 @@ const Courses = () => {
           />
         </div>
         <div className="my-auto">
-          <strong className="text-3xl flex justify-center items-center text-white">UI / UX</strong>
+          <strong className="text-3xl flex justify-center items-center text-white">
+            UI / UX
+          </strong>
           <p className="flex justify-center items-center text-gray-400 mt-2">
-            learn to use Adobe XD & Figma for free. <br/> Coming Soon :)
+            learn to use Adobe XD & Figma for free. <br /> Coming Soon :)
           </p>
         </div>
       </article>

@@ -127,3 +127,13 @@
     filter: invert(1);
   }
 }
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition-property: opacity, transform;
+}
+.fade-up.aos-animate {
+  opacity: 1;
+  transform: translateY(0);
+}

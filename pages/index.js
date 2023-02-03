@@ -12,10 +12,15 @@ import Email from "../components/Email";
 import Footer from "../components/Footer";
 import Labs from "../components/Labs";
 import Subscribe from "../components/Subscribe";
+import { useEffect } from "react";
+import AOS from "aos";
 
 
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="min-h-screen bg-slate-700">
       <Header />
