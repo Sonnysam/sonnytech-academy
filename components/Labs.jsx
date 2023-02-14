@@ -5,7 +5,10 @@ const Labs = () => {
     <>
       <div className="my-3 flex flex-col justify-center items-center mx-5">
         <h1 className="mb-2 text-white text-2xl font-bold md:text-2xl sm:xl lg:text-4xl">
-          Introducing <span className="text-[#FFDE57]">SA Labs</span>🎉
+          Introducing <span className="text-4xl font-bold 
+            bg-gradient-to-r bg-clip-text  text-transparent 
+            from-indigo-500 via-purple-500 to-indigo-500
+            animate-text">SA Labs</span>🎉
         </h1>
         <p className="text-white text-base sm:text-base md-text-xl lg:text-xl">
           <span className="text-[#FFDE57] font-bold">
@@ -20,7 +23,7 @@ const Labs = () => {
         </p>
         {/* <br /> */}
         <div>
-          <h1 className="text-[#FFDE57] text-2xl font-bold mt-3 flex justify-center items-center">Join the wait list</h1>
+          <h1 className="text-[#FFDE57] text-2xl font-bold mt-3 flex justify-center items-center ">Join the wait list</h1>
           <p className="text-white text-base sm:text-base md-text-xl lg:text-xl">
             We are currently working on the first batch of projects and we will
             be opening the lab to the public soon. If you are interested in
