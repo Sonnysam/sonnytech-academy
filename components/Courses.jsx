@@ -6,14 +6,13 @@ import W from "../public/w.png";
 import WB from "../public/wb.png";
 import DE from "../public/de.png";
 import M from "../public/m.png";
-import React, { useEffect } from "react";
-import AOS from "aos";
+// import React, { useEffect } from "react";
+// import AOS from "aos";
 
 const Courses = () => {
-  useEffect(() => {
-    AOS.init();
-    // console.log("AOS initialized");
-  }, []);
+  // useEffect(() => {
+  //   AOS.init();
+  // }, []);
 
   return (
     <section className="mt-5 mx-5 lg:mx-15 md:mx-12">
