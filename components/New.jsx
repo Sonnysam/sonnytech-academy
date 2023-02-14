@@ -30,11 +30,21 @@ const New = () => {
       </h6>
 
       <section className="flex flex-wrap  justify-center items-center">
-        <iframe
+        {/* <iframe
           width="288"
           height="187"
           src="https://www.youtube.com/embed/L0J7giCn0l0"
           title="How to add Password visibility toggle in React Native Expo 🚀"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          className="md:w-[6] h-[14] md:mx-2 my-2"
+        ></iframe> */}
+        <iframe
+          width="288"
+          height="187"
+          src="https://www.youtube.com/embed/2uJlOgfl8Fs"
+          title="GitHub fundamentals for Beginners 🚀"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen

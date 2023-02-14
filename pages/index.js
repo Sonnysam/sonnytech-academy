@@ -14,6 +14,7 @@ import Labs from "../components/Labs";
 import Subscribe from "../components/Subscribe";
 import { useEffect } from "react";
 import AOS from "aos";
+import Milestone from "../components/Milestone";
 
 
 
@@ -31,6 +32,7 @@ export default function Home() {
       <Courses/>
       <Button />
       <New/>
+      <Milestone/>
       <About/>
       <Buy/>
       {/* <Email /> */}
