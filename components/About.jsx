@@ -27,8 +27,8 @@ const About = () => {
           Developer & content creator
         </small>
         <p className="text-base text-white mx-1">
-          <span className="flex justify-center items-center my-1">Hi 👋</span>
-          I'm Samuel Agbenyo, but my dad calls me Sonny. I found love for
+          <span className="flex justify-center items-center my-1">Hello there 👋</span>
+          I'm Samuel Agbenyo, but my dad calls me Sonny. I'm a mobile and web developer. I found love for
           tech during my second year of junior high school and immediately
           developed interest in it. I'm very thankful to God almighty and the
           people around me who have helped me come this far with my career as a
