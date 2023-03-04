@@ -19,7 +19,7 @@ const Milestone = () => {
       <div className="flex justify-center items-center mt-3">
         <h1 className="text-base text-white mx-1">
           Thank y'all fam for your support to my channel. We've just hit a
-          milestone of <span className="text-[#FFDE57] font-bold">30,000</span> views! Here's to many milestones to come!
+          milestone of <span className="text-[#FFDE57] font-bold">30,000 +</span> views! Here's to many milestones to come!
         </h1>
       </div>
     </div>

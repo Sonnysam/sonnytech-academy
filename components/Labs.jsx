@@ -5,10 +5,10 @@ const Labs = () => {
     <>
       <div className="my-3 flex flex-col justify-center items-center mx-5">
         <h1 className="mb-2 text-white text-2xl font-bold md:text-2xl sm:xl lg:text-4xl">
-          Introducing <span className="text-4xl font-bold 
+          Introducing <span className="text-2xl font-bold 
             bg-gradient-to-r bg-clip-text  text-transparent 
             from-indigo-500 via-purple-500 to-indigo-500
-            animate-text">SA Labs</span>🎉
+            animate-text">SA Labs</span>{""}🎉
         </h1>
         <p className="text-white text-base sm:text-base md-text-xl lg:text-xl">
           <span className="text-[#FFDE57] font-bold">

@@ -28,13 +28,13 @@ const About = () => {
         </small>
         <p className="text-base text-white mx-1">
           <span className="flex justify-center items-center my-1">Hi 👋</span>
-          I'm Samuel Agbenyo, but mostly known as Sonny. I found love for
+          I'm Samuel Agbenyo, but my dad calls me Sonny. I found love for
           tech during my second year of junior high school and immediately
           developed interest in it. I'm very thankful to God almighty and the
           people around me who have helped me come this far with my career as a
           developer. I'm also passionate about sharing the little knowledge I
           have with everyone interested in learning to become a developer like
-          me.
+          me. Keep going and never give up!
         </p>
         <p className="flex mt-3 mb-2 text-gray-400 font-bold text-base">
           Let's get social 😎
