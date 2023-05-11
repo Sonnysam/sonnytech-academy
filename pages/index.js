@@ -17,7 +17,6 @@ import AOS from "aos";
 import Milestone from "../components/Milestone";
 
 
-
 export default function Home() {
   useEffect(() => {
     AOS.init();
@@ -29,16 +28,16 @@ export default function Home() {
       <Carousel />
       <Banner />
       <TypeWriter />
-      <Courses/>
+      <Courses />
       <Button />
-      <New/>
-      <Milestone/>
-      <About/>
-      <Buy/>
+      <New />
+      <Milestone />
+      <About />
+      <Buy />
       {/* <Email /> */}
-      <Labs/>
-      <Subscribe/>
-      <Footer/>
+      <Labs />
+      <Subscribe />
+      <Footer />
     </div>
   );
 }

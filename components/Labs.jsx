@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Labs = () => {
   return (
     <>
@@ -19,7 +20,7 @@ const Labs = () => {
           testing of software and also building open source projects for the
           community. It provides resources, mentorship, internships and guidance
           to entrepreneurs and startups looking to develop their ideas into
-          successful products. 
+          successful products.
         </p>
         {/* <br /> */}
         <div>
