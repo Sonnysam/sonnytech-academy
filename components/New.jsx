@@ -39,12 +39,23 @@ const New = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
           className="md:w-[6] h-[14] md:mx-2 my-2"
+        ></iframe>
+
+        <iframe
+          width="288"
+          height="187"
+          src="https://www.youtube.com/embed/ycx4rqC2AC0"
+          title="Beginner Guide to Reusable Components and Clean Code in React Native 👨🏿‍💻✅"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          className="md:w-[6] h-[14] md:mx-2 "
         ></iframe> */}
         <iframe
           width="288"
           height="187"
-          src="https://www.youtube.com/embed/2uJlOgfl8Fs"
-          title="GitHub fundamentals for Beginners 🚀"
+          src="https://www.youtube.com/embed/aEw0O5t-Gg8"
+          title="Master Flexbox in React Native: The Ultimate Guide 🚀"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
@@ -54,12 +65,12 @@ const New = () => {
         <iframe
           width="288"
           height="187"
-          src="https://www.youtube.com/embed/lfSqauDmRxM"
-          title="How to collaborate on a project on Github"
+          src="https://www.youtube.com/embed/ycx4rqC2AC0"
+          title="Beginner Guide to Reusable Components and Clean Code in React Native 👨🏿‍💻✅"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
-          className="md:w-[6] h-[14] md:mx-2"
+          className="md:w-[6] h-[14] md:mx-2 "
         ></iframe>
       </section>
     </div>
