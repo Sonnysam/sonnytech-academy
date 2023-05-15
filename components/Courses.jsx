@@ -32,8 +32,10 @@ const Courses = () => {
             Mobile Development
           </strong>
           <p className="text-gray-400 mt-2 flex justify-center items-center">
-            learn to build cross platform mobile apps with react native and
-            flutter for free.
+            Learn mobile app development for iOS and Android. Build responsive,
+            user-friendly, and high-performance mobile applications. Master the
+            latest techniques, frameworks, and tools for captivating mobile
+            experiences.
           </p>
         </div>
       </article>
@@ -54,7 +56,10 @@ const Courses = () => {
             Web Development
           </strong>
           <p className="flex justify-center items-center text-gray-400 mt-2">
-            learn to be a master of the web from scratch.
+            Explore web development for modern, dynamic, and interactive
+            websites. Master HTML, CSS, JavaScript, and popular frameworks like
+            React, Angular, and Vue.js. Create responsive web applications with
+            front-end design and back-end development.
           </p>
         </div>
       </article>
@@ -75,7 +80,10 @@ const Courses = () => {
             UI / UX
           </strong>
           <p className="flex justify-center items-center text-gray-400 mt-2">
-            learn to use Adobe XD & Figma for free. <br /> Coming Soon :)
+            Master UI/UX principles for exceptional user experiences. Learn
+            user-centered design, wireframing, prototyping, and user research.
+            Create intuitive, visually appealing interfaces for delightful user
+            interactions.
           </p>
         </div>
       </article>

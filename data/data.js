@@ -9,7 +9,7 @@ const faqs = [
     },
     {
       question: 'How can I support your channel?',
-      answer: 'We appreciate your support! You can support our channel by subscribing to our YouTube channel, liking and sharing our videos, and leaving comments with your feedback. You can also consider joining our Patreon or making a donation through our website.'
+      answer: 'We appreciate your support! You can support our channel by subscribing to our YouTube channel, liking and sharing our videos, and leaving comments with your feedback. You can also consider buying our Channel a coffee through our website or via link in description of each video.'
     },
     {
       question: 'Can I contribute to your tutorials or website?',
