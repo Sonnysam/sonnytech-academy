@@ -35,7 +35,7 @@ const Subscribe = () => {
           Get the latest news and updates from Sonnytech Academy
         </p>
         <form ref={form} onSubmit={sendMsg}>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center md:mx-2 sm:mx-2">
             <input
               type="text"
               name="user_email"
