@@ -26,7 +26,7 @@ const Subscribe = () => {
     e.target.reset();
   };
   return (
-    <div className="mt-5 flex justify-center items-center">
+    <div className="mt-5 flex justify-center items-center mx-2">
       <div className="flex flex-col items-center">
         <h1 className="text-3xl font-bold text-center text-white">
           Subscribe to our newsletter
