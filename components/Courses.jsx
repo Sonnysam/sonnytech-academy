@@ -31,7 +31,7 @@ const Courses = () => {
           <strong className="text-3xl text-white flex justify-center items-center">
             Mobile Development
           </strong>
-          <p className="text-gray-400 mt-2 flex justify-center items-center">
+          <p className="text-gray-400 mt-2 text-sm flex justify-center items-center">
             Learn mobile app development for iOS and Android. Build responsive,
             user-friendly, and high-performance mobile applications. Master the
             latest techniques, frameworks, and tools for captivating mobile
@@ -55,7 +55,7 @@ const Courses = () => {
           <strong className="text-3xl flex justify-center items-center text-white">
             Web Development
           </strong>
-          <p className="flex justify-center items-center text-gray-400 mt-2">
+          <p className="flex justify-center items-center text-sm text-gray-400 mt-2">
             Explore web development for modern, dynamic, and interactive
             websites. Master HTML, CSS, JavaScript, and popular frameworks like
             React, Angular, and Vue.js. Create responsive web applications with
@@ -79,7 +79,7 @@ const Courses = () => {
           <strong className="text-3xl flex justify-center items-center text-white">
             UI / UX
           </strong>
-          <p className="flex justify-center items-center text-gray-400 mt-2">
+          <p className="flex justify-center items-center text-sm text-gray-400 mt-2">
             Master UI/UX principles for exceptional user experiences. Learn
             user-centered design, wireframing, prototyping, and user research.
             Create intuitive, visually appealing interfaces for delightful user

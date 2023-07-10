@@ -11,21 +11,19 @@ const Labs = () => {
             from-indigo-500 via-purple-500 to-indigo-500
             animate-text">SA Labs</span>{""}🎉
         </h1>
-        <p className="text-white text-base sm:text-base md-text-xl lg:text-xl">
+        <p className="text-white text-sm sm:text-base md-text-xl lg:text-xl">
           <span className="text-[#FFDE57] font-bold">
             {" "}
             Sonnytech Academy Labs
           </span>{" "}
-          is a space in Sonnytech Academy dedicated to the development and
+          is a software lab in Sonnytech Academy dedicated to the development and
           testing of software and also building open source projects for the
-          community. It provides resources, mentorship, internships and guidance
-          to entrepreneurs and startups looking to develop their ideas into
-          successful products.
+          community.
         </p>
         {/* <br /> */}
         <div>
           <h1 className="text-[#FFDE57] text-2xl font-bold mt-3 flex justify-center items-center ">Join the wait list</h1>
-          <p className="text-white text-base sm:text-base md-text-xl lg:text-xl">
+          <p className="text-white text-sm sm:text-base md-text-xl lg:text-xl">
             We are currently working on the first batch of projects and we will
             be opening the lab to the public soon. If you are interested in
             joining the wait list, please subscribe to our newsletter.

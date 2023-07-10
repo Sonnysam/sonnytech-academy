@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 // import k from "../public/30k.jpeg";
-import K from "../public/40k.png";
+import K from "../public/50k.png";
 
 const Milestone = () => {
   return (
@@ -26,9 +26,9 @@ const Milestone = () => {
         />
       </div>
       <div className="flex justify-center items-center mt-3">
-        <h1 className="text-base text-white mx-1">
+        <h1 className="text-sm text-gray-400 mx-1">
           Thank y'all fam for your support to my channel. We've just hit a
-          milestone of <span className="text-[#FFDE57] font-bold">40,000+</span> views! Here's to many milestones to come!
+          milestone of <span className="text-[#FFDE57] font-bold">50,000+</span> views! Here's to many milestones to come!
         </h1>
       </div>
     </div>

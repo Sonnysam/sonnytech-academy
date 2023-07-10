@@ -5,7 +5,7 @@ const Footer = () => {
         Developed with ❤️ by{" "}
         <a
           href="https://github.com/Sonnysam"
-          className="hover:text-slate-900 cursor-pointer text-sm"
+          className="hover:text-[#FFDE57] cursor-pointer text-sm"
         >
           Samuel Agbenyo
         </a>
