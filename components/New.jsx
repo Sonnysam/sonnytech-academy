@@ -4,8 +4,17 @@ import PC from "../public/pc.png";
 const New = () => {
   return (
     <div className="mt-12 mx-w-48">
-      <h1 className="flex justify-center items-center mb-2 text-white text-4xl font-bold">
-        Latest Releases 🚀
+      <h1 className="mb-2 flex justify-center items-center text-white text-2xl font-bold md:text-2xl sm:xl lg:text-4xl">
+        Latest{" "}
+        <span
+          className="text-2xl font-bold md:text-2xl sm:xl lg:text-4xl
+            bg-gradient-to-r bg-clip-text  text-transparent 
+            from-indigo-500 via-purple-500 to-indigo-500
+            animate-text ml-2"
+        >
+          Release
+        </span>
+        {""}🚀
       </h1>
 
       {/* <div className="flex justify-center items-center">
@@ -18,15 +27,8 @@ const New = () => {
           className="lg:h-[60vh] lg:w-[40vw] md:flex lg:flex"
         />
       </div> */}
-      <h6 className="flex justify-center items-center text-white text-sm font-medium my-4">
-        Don't forget to{" "}
-        <a href="https://www.youtube.com/@SonnyTechAcademy">
-          {" "}
-          <span className="bg-red-500 px-2 rounded-md mx-2 cursor-pointer py-1">
-            Subscribe
-          </span>
-        </a>{" "}
-        if you haven't 😁
+      <h6 className="flex justify-center items-center text-gray-500 text-xs font-medium mt-3">
+        Don't forget to Subscribe if you haven't 😁
       </h6>
 
       <section className="flex flex-wrap  justify-center items-center">

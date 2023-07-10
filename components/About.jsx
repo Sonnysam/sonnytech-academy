@@ -9,8 +9,11 @@ const About = () => {
   return (
     <div className="mx-5 mt-12 ">
       <section className="flex flex-col items-center justify-center">
-        <h1 className="flex justify-center items-center mb-6 text-white text-4xl font-bold">
-          About Me
+      <h1 className="mb-2 flex justify-center items-center text-white text-2xl font-bold md:text-2xl sm:xl lg:text-4xl">
+          About <span className="text-2xl font-bold md:text-2xl sm:xl lg:text-4xl
+            bg-gradient-to-r bg-clip-text  text-transparent 
+            from-indigo-500 via-purple-500 to-indigo-500
+            animate-text ml-2">Me</span>
         </h1>
         <Image
           src={Me}
@@ -26,7 +29,7 @@ const About = () => {
         <small className="text-xs text-gray-400">
           Developer & content creator
         </small>
-        <p className="text-sm text-white mx-1">
+        <p className="text-sm sm:text-base md-text-xl lg:text-xl text-white mx-1">
           <span className="flex justify-center items-center my-1">
             Hello there 👋
           </span>

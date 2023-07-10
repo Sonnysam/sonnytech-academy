@@ -6,7 +6,7 @@ const Labs = () => {
     <>
       <div className="my-3 flex flex-col justify-center items-center mx-5">
         <h1 className="mb-2 text-white text-2xl font-bold md:text-2xl sm:xl lg:text-4xl">
-          Introducing <span className="text-2xl font-bold 
+          Introducing <span className="text-2xl font-bold md:text-2xl sm:xl lg:text-4xl
             bg-gradient-to-r bg-clip-text  text-transparent 
             from-indigo-500 via-purple-500 to-indigo-500
             animate-text">SA Labs</span>{""}🎉

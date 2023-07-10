@@ -28,10 +28,13 @@ const Courses = () => {
           />
         </div>
         <div className="my-auto" data-aos="fade-left">
-          <strong className="text-3xl text-white flex justify-center items-center">
-            Mobile Development
-          </strong>
-          <p className="text-gray-400 mt-2 text-sm flex justify-center items-center">
+        <h1 className="mb-2 flex justify-center items-center text-white text-2xl font-bold md:text-2xl sm:xl lg:text-4xl">
+          Mobile <span className="text-2xl font-bold md:text-2xl sm:xl lg:text-4xl
+            bg-gradient-to-r bg-clip-text  text-transparent 
+            from-indigo-500 via-purple-500 to-indigo-500
+            animate-text ml-2">Development</span>{""}📱
+        </h1>
+          <p className="text-gray-400 mt-2  text-sm sm:text-base md-text-xl lg:text-xl flex justify-center items-center">
             Learn mobile app development for iOS and Android. Build responsive,
             user-friendly, and high-performance mobile applications. Master the
             latest techniques, frameworks, and tools for captivating mobile
@@ -52,10 +55,13 @@ const Courses = () => {
           />
         </div>
         <div className="my-auto">
-          <strong className="text-3xl flex justify-center items-center text-white">
-            Web Development
-          </strong>
-          <p className="flex justify-center items-center text-sm text-gray-400 mt-2">
+         <h1 className="mb-2 flex justify-center items-center text-white text-2xl font-bold md:text-2xl sm:xl lg:text-4xl">
+          Web <span className="text-2xl font-bold md:text-2xl sm:xl lg:text-4xl
+            bg-gradient-to-r bg-clip-text  text-transparent 
+            from-indigo-500 via-purple-500 to-indigo-500
+            animate-text ml-2">Development</span>{""}🌐
+        </h1>
+          <p className="flex justify-center items-center text-sm sm:text-base md-text-xl lg:text-xl text-gray-400 mt-2">
             Explore web development for modern, dynamic, and interactive
             websites. Master HTML, CSS, JavaScript, and popular frameworks like
             React, Angular, and Vue.js. Create responsive web applications with
@@ -76,10 +82,13 @@ const Courses = () => {
           />
         </div>
         <div className="my-auto">
-          <strong className="text-3xl flex justify-center items-center text-white">
-            UI / UX
-          </strong>
-          <p className="flex justify-center items-center text-sm text-gray-400 mt-2">
+        <h1 className="mb-2 flex justify-center items-center text-white text-2xl font-bold md:text-2xl sm:xl lg:text-4xl">
+          UI / <span className="text-2xl font-bold md:text-2xl sm:xl lg:text-4xl
+            bg-gradient-to-r bg-clip-text  text-transparent 
+            from-indigo-500 via-purple-500 to-indigo-500
+            animate-text ml-2">UX</span>{""}🎨
+        </h1>
+          <p className="flex justify-center items-center text-sm sm:text-base md-text-xl lg:text-xl text-gray-400 mt-2">
             Master UI/UX principles for exceptional user experiences. Learn
             user-centered design, wireframing, prototyping, and user research.
             Create intuitive, visually appealing interfaces for delightful user

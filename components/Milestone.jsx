@@ -6,7 +6,12 @@ import K from "../public/50k.png";
 const Milestone = () => {
   return (
     <div className="mx-5 my-5">
-      <h1 className="text-3xl font-bold text-center text-white mb-3">Channel Milestones 🎉</h1>
+      <h1 className="mb-2 flex justify-center items-center text-white text-2xl font-bold md:text-2xl sm:xl lg:text-4xl">
+          Channel <span className="text-2xl font-bold md:text-2xl sm:xl lg:text-4xl
+            bg-gradient-to-r bg-clip-text  text-transparent 
+            from-indigo-500 via-purple-500 to-indigo-500
+            animate-text ml-2">Milestone</span>{""}🎉
+        </h1>
       <div className="flex justify-center items-center">
         {/* <Image
           src={k}
@@ -26,7 +31,7 @@ const Milestone = () => {
         />
       </div>
       <div className="flex justify-center items-center mt-3">
-        <h1 className="text-sm text-gray-400 mx-1">
+        <h1 className="text-sm sm:text-base md-text-xl lg:text-xl text-gray-400 mx-1">
           Thank y'all fam for your support to my channel. We've just hit a
           milestone of <span className="text-[#FFDE57] font-bold">50,000+</span> views! Here's to many milestones to come!
         </h1>
