@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="mx-5 mt-12 flex flex-col justify-center items-center text-white">
+    <div className="mx-5 mt-12 flex flex-col justify-center items-center text-gray-500">
       <h1>
         Developed with ❤️ by{" "}
         <a
@@ -10,10 +10,10 @@ const Footer = () => {
           Samuel Agbenyo
         </a>
       </h1>
-      <h6 className="text-xs my-1">
-        © {new Date().getFullYear()} <span className="mx-1">||</span>{" "}
-        <a href="https://www.youtube.com/@SonnyTechAcademy" className="hover:text-slate-900 cursor-pointer">
-          Sonnytech Academy
+      <h6 className="text-xs my-1 hover:text-[#FFDE57]">
+        © {new Date().getFullYear()} {" "}
+        <a href="https://www.youtube.com/@SonnyTechAcademy" className="cursor-pointer hover:text-[#FFDE57]">
+        Sonnytech Academy Labs. All Rights Reserved.
         </a>
       </h6>
     </div>
